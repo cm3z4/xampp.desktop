@@ -2,7 +2,9 @@
 
 ---
 
-Create a quick Linux deskotp shortcut/icon for [XAMPP](https://www.apachefriends.org/).
+Create a quick Linux desktop shortcut/icon for [XAMPP](https://www.apachefriends.org/).
+
+Edit the file/folder paths according to your XAMPP installation path. These directions assume the default installation path.
 
 1. Clone or download this repo.
 
@@ -15,7 +17,7 @@ Create a quick Linux deskotp shortcut/icon for [XAMPP](https://www.apachefriends
 3. Move the xampp.desktop file to the *~/.local/share/applications* directory.
    
    ```bash
-   sudo mv xampp.desktop ~/.local/share/applications
+   sudo mv xampp.desktop ~/.local/share/applications/
    ```
 
 4. Edit the *sudoers* file.
@@ -33,5 +35,6 @@ Create a quick Linux deskotp shortcut/icon for [XAMPP](https://www.apachefriends
 6. Make xampp.desktop executable.
 
 7. ```bash
-   sudo chmod +x ~/.local/share/applications/xampp.desktp
+   sudo chmod +x ~/.local/share/applications/xampp.desktop
    ```
+You should now see the XAMPP icon in your distro's application launcher.
